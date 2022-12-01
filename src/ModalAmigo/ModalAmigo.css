@@ -1,0 +1,54 @@
+.modal{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    background-color: rgb(81, 82, 82);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.modal_header{
+    width: 400px;
+    margin: 0;
+    padding-top: 10px;
+    background-color: whitesmoke;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center;
+}
+.modal_formulario{
+    width: 400px;
+    height: 40vh;
+    flex-direction: column;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0px 0px 20px 20px;
+    background-color: whitesmoke;
+}
+.modal_formulario input{
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+}
+.modal_formulario div{
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+}
+.modal_formulario div button{
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.modal_formulario div button:hover{
+    background-color: rgb(181, 180, 180);
+    cursor: pointer;
+}
